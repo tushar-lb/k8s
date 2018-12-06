@@ -55,4 +55,6 @@ K8S cluster monitoring:
    Check index data : Discover -> filebeat-*
 
 This way you can setup elasticsearch cluster, kibana, filebeat on kubernetes with persistent volume manager Portworx and monitor k8s using same.
+For more details :
+	-  https://docs.portworx.com/portworx-install-with-kubernetes/application-install-with-kubernetes/elastic-search-and-kibana/
 
