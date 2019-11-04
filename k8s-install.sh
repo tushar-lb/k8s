@@ -16,7 +16,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
         https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
 
-yum install -y kubelet kubeadm kubectl
+yum install kubeadm-1.14.1 kubelet-1.14.1 kubernetes-cni-0.6.0
 
 systemctl start kubelet && systemctl enable kubelet
 systemctl status kubelet
